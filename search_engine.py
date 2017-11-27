@@ -93,6 +93,9 @@ if __name__ == "__main__":
   ref['Zootopia'] = ['Zootopia (2016)','tt2948356']
   ref['GuardiansoftheGalaxy'] = ['Guardians of the Galaxy (2014)', 'tt2015381']
   ref['SuicideSquad'] = ['Suicide Squad (2016)', 'tt1386697']
+  ref['PiratesoftheCaribbean-TheCurseoftheBlackPearl'] = ['Pirates of the Caribbean: The Curse of the Black Pearl (2003)', 'tt0325980']
+  ref['PiratesoftheCaribbeanDeadMansChest'] = ['Pirates of the Caribbean: Dead Mans Chest (2006)', 'tt0383574']
+  ref['PiratesoftheCaribbean-AtWorldsEnd'] = ['Pirates of the Caribbean: At Worlds End (2007)', 'tt0449088']
 
   
   run()

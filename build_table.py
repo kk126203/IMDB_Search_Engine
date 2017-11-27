@@ -136,11 +136,13 @@ def Sentence_Match(input_table, query, table1):
         
     record = sorted(record.items(), key=operator.itemgetter(1))
     record = list(reversed(record))
+    
+
+    print record
     for file in record:
         if file not in output:
             output.append(file[0])
-
-    print output
+            
     return output
 
 	
