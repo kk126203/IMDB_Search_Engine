@@ -1,0 +1,61 @@
+<html>
+    <head>
+    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    </head>
+    <style>
+	input[type=text], select {
+ 	    position: absolute;
+	    left:60px;
+	    top: 7px;
+            width: 60%;
+            padding: 5px 3px;
+            margin: 0 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+	input[type=submit]{
+	    position: absolute;
+            left:830px; top: 7px;
+	    width:60px;
+	    height:30px;
+	}
+	img.class1{
+	    position: absolute;
+            left:10px; top: 7px;
+	}	
+	div.class1{
+	     position: absolute;
+             left:30px; top: 75px;
+	}
+	img.class2{
+             position: absolute;
+             left:800px; top: 75px;
+        }
+    </style>
+    <body>
+	<div class="navbar-wrapper">
+          <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+	      <a href="/"><img class="class1" src="https://img.buzzfeed.com/buzzfeed-static/static/2017-02/25/17/enhanced/buzzfeed-prod-fastlane-01/enhanced-23480-1488060314-2.png?downsize=715:*&output-format=auto&output-quality=auto" height="35" width="40"></a>
+	      <form method="POST" action="/do_query_post">
+                <input type="text"  name = "query" placeholder={{data2[0]}}>
+                <input type="submit" value="Go">
+     	      </form>		
+            </div>
+          </div>
+    	</div>
+	
+
+	<div class="class1">
+	    <img class="class2" src="https://www.universalstudioshollywood.com/site-content/uploads/2017/04/despicable-me-minion-mayhem-ride-orlando-minion-f.png" alt="minions" height="420" width="420">
+	    <h6>There are {{data3}} results, and the search spent {{data4}} seconds </h6>
+	    {% for item in data %}
+        	<a href="{{item[0]}}"><p style="font-size:30px;">{{item[1]}}</p></a>
+		<p style="font-size:15px;">{{item[0]}}</p><br><br><br>
+    	    {% endfor %}	
+	</div>
+
+    </body>
+</html>

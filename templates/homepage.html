@@ -1,0 +1,50 @@
+<htm>
+    <style>
+	div{
+ 	    position: absolute; 
+	    left:340px; top: 160px; 
+	}
+	h4{
+	    font-size: 280%; 
+            color:DeepSkyBlue
+	}
+	h4 span{
+	    color:Brown;
+	}
+
+	input[type=text], select {
+    	    width: 100%;
+    	    padding: 7px 3px;
+    	    margin: 0 0;
+    	    display: inline-block;
+    	    border: 1px solid #ccc;
+    	    border-radius: 4px;
+    	    box-sizing: border-box;
+   	}
+	p.class1{
+	    position: absolute; 
+            left:265px; top: 200px; 
+	}
+	p.class2{
+	    position: absolute;
+	    left:30px; top:250px;
+	}
+	
+    </style>
+
+<div>
+    <h4>
+	Welcome to <span>Movie Search Engine</span>
+    </h4>
+    <form method="POST" action="/do_query_post">
+	<input type="text"  name = "query">
+	<p class="class1"><input type="submit" value="Go" style="width:100px; height:50px;"></p>
+	
+    </form>
+    <p class="class2">This search engine includes the top 10 box office IMDB movies in recent 5 years, and some others</p>
+</div>
+
+
+
+
+</html>
