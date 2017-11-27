@@ -69,6 +69,9 @@ def Final_Table(input_table):
 
 
 ## This func implements the searching algorithm. First in each file, we extract the corresponding position list of each words of the input query, then we do the position match by subtracting its index position in the input query, then if the input query is completely in the file, there would be an integer shows up at every list, and this file will thus become the file we want.
+## First priority is that if words in the input string show up in name of the movies, then it will be selected.
+## Second priority is that if the input string matches any sentence in the wiki of the movies, then it will be selected.
+## Third priority is that we split the input string by space into words, and count how many times these words appear in the wiki of the movies, then select it and sort by that numbers. 
 def Sentence_Match(input_table, query, table1):
     stopwords = open('./stop_words.txt').read()
     p = re.compile('[\W_]+')
