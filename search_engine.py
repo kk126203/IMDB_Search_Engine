@@ -96,6 +96,22 @@ if __name__ == "__main__":
   ref['PiratesoftheCaribbean-TheCurseoftheBlackPearl'] = ['Pirates of the Caribbean: The Curse of the Black Pearl (2003)', 'tt0325980']
   ref['PiratesoftheCaribbeanDeadMansChest'] = ['Pirates of the Caribbean: Dead Mans Chest (2006)', 'tt0383574']
   ref['PiratesoftheCaribbean-AtWorldsEnd'] = ['Pirates of the Caribbean: At Worlds End (2007)', 'tt0449088']
+  ref['LaLaLand'] = ['La La Land (2016)','tt3783958']
+  ref['TheLegendof1900'] = ['he Legend of 1900 (1998)', 'tt0120731']
+  ref['FiftyShadesofGrey'] = ['Fifty Shades of Grey (2015)', 'tt2322441']
+  ref['Twilight'] = ['Twilight (2008)', 'tt1099212']
+  ref['HarryPotter7'] = ['Harry Potter and the Deathly Hallows (2011)', 'tt1201607']
+  ref['HarryPotter6'] = ['Harry Potter and the Half-Blood Prince (2009)', 'tt0417741']
+  ref['MoneyBall'] = ['MoneyBall (2011)', 'tt1210166']
+  ref['Troy'] = ['Troy (2004)', 'tt0332452']
+  ref['Avatar'] = ['Avatar (2009)', 'tt0499549']
+  ref['AbrahamLincoln-VampireHunter'] = ['Abraham Lincoln: Vampire Hunter (2012)', 'tt1611224']
+  ref['TheLure'] = ['The Lure (2015)', 'tt5278832']
+  ref['FiftyShadesDarker'] = ['Fifty Shades Darker (2017)', 'tt4465564']
+  ref['TheTwilightSaga-NewMoon'] = ['The Twilight Saga: New Moon (2009)', 'tt1259571']
+  ref['Transformers'] = ['Transformers (2007)', 'tt0418279']
+  ref['TheLordoftheRings'] = ['The Lord of the Rings: The Fellowship of the Ring (2001)', 'tt0120737']
+  ref['TheLordoftheRings-TheTwoTowers'] = ['The Lord of the Rings: The Two Towers (2002)', 'tt0167261']
 
   
   run()
